@@ -1,0 +1,52 @@
+# Bugs
+- [ ] 2nd MainWindow 
+
+# ToDo
+- [ ] [GUI] Design ListView
+
+# Log
+## 13-04-2022 
+
+- [MVVM] MainWindow
+  - Setup Bindings (CurrentViewModel <-> CurrentView)
+- [MVVM / GUI] Views
+  - DashboardView: Display weather information
+  - SettingsView: Edit location
+- [MVVM] ViewModels
+  - DashboardViewModel: Manage binding between View and API/Database
+  - SettingsViewModel: Manage location setting for API
+  - BaseViewModel: Base class to inherit from -> update on changed
+
+
+## 16-04-2022
+
+- [MVVM] Navigationstore
+  - Implement current viewmodel
+  - Method for changing viewmodel
+- [MVVM] Commands
+  - CommandBase: Base class to inherit from -> implements ICommand Interface
+  - ExitApplicationCommand : Terminate application and calls any cancellationtokens
+  - NavigateCommand : Navigate to choosen viewmodel
+
+
+## 22-04-2022
+
+- [MVVM] Starup (App.xaml.cs)+
+  - Add NavigationStore
+  - DashBoardViewModel on startup
+  - Set up MainWindow
+  - Methods for creating ViewModels
+  
+## 29-04-2022
+
+- [GUI] DashboardView
+  - Fix alligment (current weather)
+  - implement listview for weather-forecast
+  
+
+## 30-04-2022
+
+- [GUI] Allign lociation text (settings)
+- 
+
+  

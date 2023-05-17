@@ -1,0 +1,61 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>weather_widget</RootNamespace>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Model\ErrorCodeModel.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Resources\Icons\01d.png" />
+    <None Remove="Resources\Icons\01n.png" />
+    <None Remove="Resources\Icons\02d.png" />
+    <None Remove="Resources\Icons\02n.png" />
+    <None Remove="Resources\Icons\03d.png" />
+    <None Remove="Resources\Icons\03n.png" />
+    <None Remove="Resources\Icons\04d.png" />
+    <None Remove="Resources\Icons\04n.png" />
+    <None Remove="Resources\Icons\09d.png" />
+    <None Remove="Resources\Icons\09n.png" />
+    <None Remove="Resources\Icons\10d.png" />
+    <None Remove="Resources\Icons\10n.png" />
+    <None Remove="Resources\Icons\11d.png" />
+    <None Remove="Resources\Icons\11n.png" />
+    <None Remove="Resources\Icons\13d.png" />
+    <None Remove="Resources\Icons\13n.png" />
+    <None Remove="Resources\Icons\50d.png" />
+    <None Remove="Resources\Icons\50n.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="system.data.sqlite" Version="1.0.115.5" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Resources\Icons\01d.png" />
+    <Resource Include="Resources\Icons\01n.png" />
+    <Resource Include="Resources\Icons\02d.png" />
+    <Resource Include="Resources\Icons\02n.png" />
+    <Resource Include="Resources\Icons\03d.png" />
+    <Resource Include="Resources\Icons\03n.png" />
+    <Resource Include="Resources\Icons\04d.png" />
+    <Resource Include="Resources\Icons\04n.png" />
+    <Resource Include="Resources\Icons\09d.png" />
+    <Resource Include="Resources\Icons\09n.png" />
+    <Resource Include="Resources\Icons\10d.png" />
+    <Resource Include="Resources\Icons\10n.png" />
+    <Resource Include="Resources\Icons\11d.png" />
+    <Resource Include="Resources\Icons\11n.png" />
+    <Resource Include="Resources\Icons\13d.png" />
+    <Resource Include="Resources\Icons\13n.png" />
+    <Resource Include="Resources\Icons\50d.png" />
+    <Resource Include="Resources\Icons\50n.png" />
+  </ItemGroup>
+
+</Project>
